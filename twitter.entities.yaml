@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: twitter
+  description: Twitter API v3
+  tags:
+    - twitter
+    - rest
+  links:
+    - url: https://github.com/ccycgh2/bsit2/blob/main/twitter.oas.yaml
+      title: API Spec
+      icon: code
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: team-c
+  definition:
+    $text: ./twitter.oas.yaml
